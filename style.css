@@ -1,84 +1,64 @@
-font, td, p, body, header {
-	font: 8pt consolas;
+body {
+	width:100%;
 	color: #000;
-	line-height: 9pt;
-	letter-spacing: 1px;
+	background:#cdd2db;
+	background-image: url("http://puu.sh/ctc05/0356c37ded.png");
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 25pt;
+	line-height:30px;
+	color: #FFF;
+	background: transparent;
 	text-transform: lowercase;
-    font-weight: bold;
-	background-image: url("http://i.imgur.com/1bFdG7V.png");
-	cursor: url("http://i.imgur.com/ZfSUlIh.png"), auto;
+	text-decoration: none;
+	text-align: right;
+	margin-top: -50pt;
+	padding: 10pt;
+}
+
+a:link, a:active, a:visited, a b {
+	font: 9pt tahoma;
+	line-height: 12pt;
+	color: #FFF;
+	text-decoration: underline;
+	text-align: right;
+	text-transform: uppercase;
+}
+a:hover, a:hover b {
+	font: 9pt tahoma;
+	line-height: 12pt;
+	text-decoration: none;
+	text-align: right;
+	text-transform: uppercase;
 }
 
 #gen {
-    font: 8pt consolas;
-	line-height: 15px;
-	font-weight: bold;
-	color: #FFF;
+	background-color: #00888b;
+	text-decoration: none;
+	text-align: left;
+	margin: 0 auto;
 	width: 500px;
-    height: 55px;
-	margin-left:100px;
-	position: fixed;
-	;
-}
-
-#content time {
-    font: 7.5pt consolas;
-	line-height: 9pt;
-	font-weight: bold;
-	color: #FFF;
-	background: #000;
-	text-transform: uppercase;
-	float:right;
-}
-
-#content article {
-    width:500px;
-    margin-left:100px;
-}
-
-#content {
-    margin-top: 45px;
-}
-
-b {
-	font-weight: bold;
-	color: #000;
-	text-decoration: none;
-}
-u {
-	color: #000;
-	text-decoration: underline;
-}
-a:link, a:active, a:visited, a {
-	font-weight: bold;
-	color: #FFF;
-	background: #000;
-	display: inline;
-	text-decoration: none;
-	text-align: right;
-   
-}
-
-a:hover, a:hover b{
-	font-weight: bold;
-	color: #FFF;
-	background: #FFF;
-	text-align: right;
-	cursor: url("http://i.imgur.com/ZfSUlIh.png"), auto;
+	height: auto;
+	overflow: auto;
 	
 }
 
-#pagination {
-    width:500px;
-    margin-left: 45px;
+#content {
+    color: #FFF;
+	font: 9pt tahoma;
+	text-decoration: none;
+	text-align: left;
+	padding:10px;
+	letter-spacing: 1px;
+	
 }
 
-#prev-page, #next-page {
-    font: 7pt consolas;
-	color: #000;
-	line-height: 8pt;
-	letter-spacing: 1px;
-	text-transform: lowercase;
-    font-weight: bold;
-    margin-left:100px;
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
 }
