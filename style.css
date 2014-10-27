@@ -9,7 +9,7 @@ font, td, p, body, header {
 	cursor: url("http://i.imgur.com/ZfSUlIh.png"), auto;
 }
 
-#masthead, #results {
+#gen {
     font: 8pt consolas;
 	line-height: 15px;
 	font-weight: bold;
