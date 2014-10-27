@@ -24,14 +24,12 @@ a:link, a:active, a:visited, a b {
 	color: #FFF;
 	text-decoration: underline;
 	text-align: right;
-	text-transform: uppercase;
 }
 a:hover, a:hover b {
 	font: 9pt tahoma;
 	line-height: 12pt;
 	text-decoration: none;
 	text-align: right;
-	text-transform: uppercase;
 }
 
 #gen {
