@@ -53,13 +53,9 @@ a:hover, a:hover b {
 	
 }
 
-table {
+table, td, th {
    border: 1px solid #FFF;
    width: 80%;
-}
-
-td {
-   border: 1px solid #FFF;
 }
 
 blockquote {
