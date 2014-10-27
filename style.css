@@ -55,6 +55,7 @@ a:hover, a:hover b {
 
 table, th, td {
    border: 1px solid #FFF;
+   width: 100%;
 }
 
 blockquote {
