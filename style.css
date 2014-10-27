@@ -1,41 +1,45 @@
-table {
-	background-color: transparent;
-}
-table a img, #header, #footer, #ban, .sf {
-	display: none;
-}
-font, td, p, body {
-	font: 20pt tahoma;
+font, td, p, body, header {
+	font: 8pt consolas;
 	color: #000;
-	line-height: 21pt;
+	line-height: 9pt;
 	letter-spacing: 1px;
 	text-transform: lowercase;
-	background-image: url("https://dl.dropbox.com/u/80761783/site/speck_bg.png");
+    font-weight: bold;
+	background-image: url("http://i.imgur.com/1bFdG7V.png");
+	cursor: url("http://i.imgur.com/ZfSUlIh.png"), auto;
 }
-#me {
-	margin-top: -220px;
-	margin-left: 95px;
-	overflow: hidden;
-	width: 100px;
-	height: 400px;
-	text-align: right;
+
+#masthead, #results {
+    font: 8pt consolas;
+	line-height: 15px;
+	font-weight: bold;
+	color: #FFF;
+	width: 500px;
+    height: 55px;
+	margin-left:100px;
+	position: fixed;
+	;
 }
-#nav {
-	top: 243px;
-	margin-left: 98px;
-	text-align: right;
+
+#content time {
+    font: 7.5pt consolas;
+	line-height: 9pt;
+	font-weight: bold;
+	color: #FFF;
+	background: #000;
+	text-transform: uppercase;
+	float:right;
 }
-#gen {
-	margin-top: 20px;
-	margin-left: auto;
-    margin-right: auto;
-	width: 600px;
-	border: 0px solid #fff;
+
+#content article {
+    width:500px;
+    margin-left:100px;
 }
-#banner {
-	margin-top: -15px;
-	margin-left: 200px;
+
+#content {
+    margin-top: 45px;
 }
+
 b {
 	font-weight: bold;
 	color: #000;
@@ -45,55 +49,36 @@ u {
 	color: #000;
 	text-decoration: underline;
 }
-/* secondary */
-h1 {
-	font: 20pt consolas;
-	line-height: 21px;
-	font-weight: bold;
-	color: #FFF;
-	background: #2e2e2e;
-	text-decoration: none;
-	text-align: center;
-}
-/* primary */
-h2 {
-	font: 8pt consolas;
-	line-height: 10px;
-	font-weight: bold;
-	color: #FFF;
-	background: #c46568;
-	text-decoration: none;
-	text-align: center;
-}
-/* top (rose) */
-h3 {
-	font: 8pt consolas;
-	line-height: 20px;
-	font-weight: bold;
-	color: #FFF;
-	background-image: url(https://dl.dropbox.com/u/80761783/site/roses.png);
-	text-decoration: none;
-	text-align: center;
-}
-a:link, a:active, a:visited, a b {
-	font: 15pt consolas;
-	line-height: 16px;
+a:link, a:active, a:visited, a {
 	font-weight: bold;
 	color: #FFF;
 	background: #000;
 	display: inline;
 	text-decoration: none;
 	text-align: right;
+   
 }
-a:hover, a:hover b {
-	font: 15pt consolas;
-	line-height: 16px;
+
+a:hover, a:hover b{
 	font-weight: bold;
 	color: #FFF;
-    background-image: url(https://dl.dropbox.com/u/80761783/site/roses.png);
-	text-decoration: none;
+	background: #FFF;
 	text-align: right;
+	cursor: url("http://i.imgur.com/ZfSUlIh.png"), auto;
+	
 }
-.image:hover .hoverimage {
-	display: block;
+
+#pagination {
+    width:500px;
+    margin-left: 45px;
+}
+
+#prev-page, #next-page {
+    font: 7pt consolas;
+	color: #000;
+	line-height: 8pt;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+    font-weight: bold;
+    margin-left:100px;
 }
