@@ -42,7 +42,7 @@ font,p,body {
 
 
 i {
-	font-weight:bold;
+	font:6pt 'Open Sans';
 	color:#000;
 	text-decoration:none;
 }
