@@ -42,9 +42,8 @@ font,p,body {
 
 
 i {
-	font:8pt 'Open Sans';
+	font:8pt;
 	color:#000;
-	text-decoration: bold;
 }
 
 b {
