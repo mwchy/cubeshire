@@ -55,6 +55,7 @@ a:hover, a:hover b {
 
 table {
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 table, td, th {
