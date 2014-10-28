@@ -53,10 +53,13 @@ a:hover, a:hover b {
 	
 }
 
+table {
+    border-collapse: collapse;
+}
+
 table, td, th {
    border: 1px solid #FFF;
    width: 100%;
-   padding: 0px;
 }
 
 blockquote {
