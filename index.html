@@ -55,7 +55,7 @@
 
 				<td>:</td>
 
-				<td><script>$.getJSON('https://api.syfaro.net/minecraft/1.2/server/info?ip=198.143.140.180&port=25565', function(data) {
+				<td><p id="playerListHTML"></p><script>$.getJSON('https://api.syfaro.net/minecraft/1.2/server/info?ip=198.143.140.180&port=25565', function(data) {
 document.getElementById('lastUpdate').textContent="Last Update: "+data.last_update+"(GMT-6)";
 document.getElementById('version').textContent="Minecraft Version: MC Release V. "+data.version;
 document.getElementById('serverVersion').textContent="Server MOTD: "+data.motd;
