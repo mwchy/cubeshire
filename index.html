@@ -56,19 +56,18 @@
 <head>
 <meta charset="utf-8">
 <title>Server Status</title>
-&amp;amp;lt;script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 </head>
 <body>
-//Server Applet by BtheDestroyer
+
 <img src="http://www.clker.com/cliparts/9/1/5/2/119498475589498995button-red_benji_park_01.svg.med.png" width="50" height="50" id="online"></h1>
-&amp;amp;lt;script>$.getJSON('https://api.syfaro.net/minecraft/1.2/server/info?ip=INSERT SERVER IP HERE&amp;amp;amp;port=25565', function(data) {
+&amp;amp;lt;script>$.getJSON('https://api.syfaro.net/minecraft/1.2/server/info?ip=198.143.140.180port=25565', function(data) {
 if(data.playerList.indexOf("INSERT PLAYER NAME HERE")==-1){
     document.getElementById('online').src = "http://www.clker.com/cliparts/9/1/5/2/119498475589498995button-red_benji_park_01.svg.med.png";
 }else{
 document.getElementById('online').src = "http://www.clker.com/cliparts/2/9/b/8/1194984775760075334button-green_benji_park_01.svg.med.png"
 }
 });</script>
-//Server Applet by BtheDestroyer
 </body>
 </html>
 
