@@ -51,27 +51,26 @@
 			
 			
 			<tr>
-				<td><i class="icon-home"></i> <b>Players Online</b></td>
-
-				<td>:</td>
-
-				<td><p id="playerListHTML"></p><script>$.getJSON('https://api.syfaro.net/minecraft/1.2/server/info?ip=198.143.140.180&port=25565', function(data) {
-document.getElementById('lastUpdate').textContent="Last Update: "+data.last_update+"(GMT-6)";
-document.getElementById('version').textContent="Minecraft Version: MC Release V. "+data.version;
-document.getElementById('serverVersion').textContent="Server MOTD: "+data.motd;
-if(data.status=="success"){
-document.getElementById('online').textContent = "Server is online!";
-if(data.players === 0){
-	 document.getElementById('playerListHTML').textContent = "No players are currently online.";
+			<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Server Status</title>
+&amp;amp;lt;script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+//Server Applet by BtheDestroyer
+<img src="http://www.clker.com/cliparts/9/1/5/2/119498475589498995button-red_benji_park_01.svg.med.png" width="50" height="50" id="online"></h1>
+&amp;amp;lt;script>$.getJSON('https://api.syfaro.net/minecraft/1.2/server/info?ip=INSERT SERVER IP HERE&amp;amp;amp;port=25565', function(data) {
+if(data.playerList.indexOf("INSERT PLAYER NAME HERE")==-1){
+    document.getElementById('online').src = "http://www.clker.com/cliparts/9/1/5/2/119498475589498995button-red_benji_park_01.svg.med.png";
 }else{
-	 document.getElementById('playerListHTML').textContent = data.playerList;
+document.getElementById('online').src = "http://www.clker.com/cliparts/2/9/b/8/1194984775760075334button-green_benji_park_01.svg.med.png"
 }
-}else{
-document.getElementById('online').textContent = "Server is not online... try again later.";
-document.getElementById('playersListHTML').textContent = "Server is not online... try again later.";
-}
-});</script></td>
-			</tr>
+});</script>
+//Server Applet by BtheDestroyer
+</body>
+</html>
 
 		</table>
 		
