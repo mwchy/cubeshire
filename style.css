@@ -1,74 +1,137 @@
-body {
-	width:100%;
-	color: #000;
-	background:#cdd2db;
-	background-image: url("http://i.imgur.com/qupTi.png");
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css);
+
+html,body { 
+	height:100%; 
+}
+
+.footer {
+	height: 100px;
+	background-color:#e8e8e8;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+font,p,body {
+	font:10pt 'Open Sans';
+	color:#000;
+	text-transform:none;
+	background-color:#0e0809;
+	background-image:url(/imgs/arcticunderground.png);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	line-height: 14px;
+}
+
+.wrapper {
+	width:530px;
+	background-color:#e8e8e8;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding:10px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+
+i {
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+}
+
+b {
+	font-weight:bold;
+}
+
+u {
+	color:#202e7d;
+	text-decoration:underline;
+	line-height:15pt;
+	font:10pt 'Open Sans';
+}
+
+a {
+	color:#202e7d;
+	text-decoration:underline;
+	line-height:15pt;
 }
 
 h1 {
-	font-family: 'Lobster', cursive;
-	font-size: 25pt;
-	line-height:30px;
-	color: #FFF;
-	background: transparent;
-	text-transform: lowercase;
-	text-decoration: none;
-	text-align: right;
-	margin-top: -50pt;
-	padding: 10pt;
+	font:12pt 'Open Sans';
+	font-weight:bold;
+	letter-spacing:3px;
+	text-transform:uppercase;
+	color:#e8e8e8;
+	text-align:center;
+	margin-top:1px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#1a1a32;
+	background-image:url(/imgs/dark_wall.png);
 }
 
-a:link, a:active, a:visited, a b {
-	font: 9pt tahoma;
-	line-height: 12pt;
-	color: #FFF;
-	text-decoration: underline;
-	text-align: right;
-}
-a:hover, a:hover b {
-	font: 9pt tahoma;
-	line-height: 12pt;
-	text-decoration: none;
-	text-align: right;
+h2 {
+	font:55pt 'Lobster';
+	letter-spacing:0;
+	color:#000;
+	background-color: #e8e8e8;
+	text-transform:lowercase;
+	text-decoration:none;
+	text-align:center;
+	height:15px;
+	margin-top: 0px;
 }
 
-#gen {
-	background-color: #535353;
-	text-decoration: none;
-	text-align: left;
-	margin: 0 auto;
-	width: 500px;
-	height: auto;
-	overflow: auto;
-	
+h3 {
+	font:7.5pt 'Open Sans';
+	color:#0e0809;
+	text-transform:lowercase;
+	font-style:italic;
+	text-align:center;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
-#content {
-    color: #FFF;
-	font: 9pt tahoma;
-	text-decoration: none;
-	text-align: left;
-	padding:10px;
-	letter-spacing: 1px;
-	
+table.center {
+	margin-left:auto;
+	margin-right:auto;
 }
 
-table {
-    border-collapse: collapse;
-    table-layout:fixed;
+table.left {
+	margin-left:20px;
+	margin-right:20px;
 }
 
-table, td, th {
-   border: 1px solid #FFF;
-   width: 100%;
+table.left2 {
+	margin-left:65px;
+	margin-right:65px;
 }
 
-blockquote {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
+table.announce {
+	margin-left:45px;
+	margin-right:45px;
+	display:block;
+	height:55px;
+	overflow-y:scroll;
 }
 
+table.chat {
+	margin-left:20px;
+	margin-right:20px;
+	display:block;
+	height:250px;
+	overflow-y:scroll;
+}
 
+hr {
+	border-top: 1px dashed #000;
+	width:95%;
+}
